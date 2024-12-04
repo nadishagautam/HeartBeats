@@ -32,3 +32,5 @@ To train the model and classify a playlist of songs, navigate to the **`demo`** 
 `train_model.ipynb` builds, trains, and saves the neural network.
 
 `test_model.ipynb` loads the trained model and classifies a playlist of songs.
+
+`model.py` stores the implementation of the neural network.
