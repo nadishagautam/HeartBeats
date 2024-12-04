@@ -11,7 +11,7 @@ To create and activate a virtual environment, run the following commands in the 
 #### **For Windows:**
 ```bash
 python -m venv venv
-.\venv\Scripts\activate
+venv/Scripts/activate
 ```
 
 #### **For MacOS/Linux:**
