@@ -6,7 +6,7 @@ This project demonstrates how to train a machine learning model and use it to cl
 
 ### 1. Set up a Virtual Environment
 
-To create and activate a virtual environment, follow these steps:
+To create and activate a virtual environment, run the following commands in the main directory:
 
 #### **For Windows:**
 ```bash
@@ -21,13 +21,13 @@ source venv/bin/activate
 ```
 
 ### 2. Install the Dependencies
-Once the virtual environment is activated, install the required dependencies from the `requirements.txt` file:
+Once the virtual environment is activated, install the required dependencies from the `requirements.txt` file (which is in the main directory):
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run the Demo
-To train the model and classify a playlist of songs, navigate to the demo folder and run the Jupyter Notebooks. 
+To train the model and classify a playlist of songs, navigate to the **`demo`** folder and run the Jupyter Notebooks. 
 
 `train_model.ipynb` builds, trains, and saves the neural network.
 
