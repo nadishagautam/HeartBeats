@@ -34,3 +34,8 @@ To train the model and classify a playlist of songs, navigate to the **`demo`** 
 `test_model.ipynb` loads the trained model and classifies a playlist of songs.
 
 `model.py` stores the implementation of the neural network.
+
+### Note
+
+We would like to mention the Spotify API was used to retrieve song attributes such as tempo, energy, loudness, and valence from a User’s Spotify Playlist. This functionality is included in the code in the folder SpotifyAPI but should be noted that the API is no longer functional in this setup. It is referenced in the code but is not operational due to API accesspoint being removed by Spotify on Novemeber 27th, 2024. 
+
